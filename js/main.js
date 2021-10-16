@@ -20,7 +20,7 @@ function calcular() {
   if (destino.length == 0 || /^\s+$/.test(destino) || presupuesto.length == 0 || isNaN(presupuesto) || /^\s+$/.test(presupuesto) || alojamiento.length == 0 || /^\s+$/.test(alojamiento) || isNaN(alojamiento) || transporte.length == 0 || /^\s+$/.test(transporte) || isNaN(transporte) || comida.length == 0 || /^\s+$/.test(comida) || isNaN(comida)) {
     alert('No pueden haber campos vacíos ni caractéres diferentes a números');
   } else {
-    resuldestino.innerHTML = 'Detino: ' + destino;
+    resuldestino.innerHTML = 'Destino: ' + destino;
     resulpresupuesto.innerHTML = 'Presupuesto: $' + presupuesto;
     gastototal.innerHTML = 'Tu gasto total fue: $' + total;
     if (total < presupuesto) {
