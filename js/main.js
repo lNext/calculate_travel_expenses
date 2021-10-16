@@ -21,13 +21,13 @@ function calcular() {
     alert('No pueden haber campos vacíos ni caractéres diferentes a números');
   } else {
     resuldestino.innerHTML = 'Detino: ' + destino;
-    resulpresupuesto.innerHTML = 'Presupuesto: ' + presupuesto;
-    gastototal.innerHTML = 'Tu gasto total fue: ' + total;
+    resulpresupuesto.innerHTML = 'Presupuesto: $' + presupuesto;
+    gastototal.innerHTML = 'Tu gasto total fue: $' + total;
     if (total < presupuesto) {
-      sobrante.innerHTML = 'Sobrante: ' + rsobrante;
+      sobrante.innerHTML = 'Sobrante: $' + rsobrante;
     }
     if (total > presupuesto) {
-      balance.innerHTML = 'Te pasaste: ' + mayor + ' de tu presupuesto';
+      balance.innerHTML = 'Te pasaste: $' + mayor + ' de tu presupuesto';
     }
   }
 }
