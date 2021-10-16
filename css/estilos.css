@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Formulario de cálculo  */
+.form-calculo {
+  background: #0073cd;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 7px 10px 37px #000;
+}
+
+.form-calculo h4 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.numbers {
+  background: #0073cd;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid 1px white;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+
+.form-calculo ::placeholder {
+  color: white;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px transparent;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #0073cd;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: background .5s ease-in-out;
+}
+
+.boton-calcular {
+  text-align: center;
+}
+
+.resultado {
+  margin-top: 10px;
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+/* Responsive design */
+@media screen and (max-width: 500px) {
+  .form-calculo {
+    width: 90%;
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Calcular gastos</title>
+</head>
+
+<body>
+
+  <section class="form-calculo">
+    <h4>Calcular gastos de viaje</h4>
+    <label for="destino">Destino</label>
+    <input type="text" class="numbers" id="destino" placeholder="Destino">
+    <label for="presupuesto">Presupuesto</label>
+    <input type="text" class="numbers" id="presupuesto" placeholder="Presupuesto">
+    <label for="destino">Alojamiento</label>
+    <input type="text" class="numbers" id="alojamiento" placeholder="Alojamiento">
+    <label for="destino">Transporte</label>
+    <input type="text" class="numbers" id="transporte" placeholder="Transporte">
+    <label for="destino">Comida</label>
+    <input type="text" class="numbers" id="comida" placeholder="Comida">
+    <div class="boton-calcular">
+      <button type="button" onclick="calcular()">Calcular</button>
+    </div>
+    <div class="resultado" id="resuldestino">
+      <!-- Acá se imprimen los resultados -->
+    </div>
+    <div class="resultado" id="resulpresupuesto">
+      <!-- Acá se imprimen los resultados -->
+    </div>
+    <div class="resultado" id="gastotal">
+      <!-- Acá se imprimen los resultados -->
+    </div>
+    <div class="resultado" id="sobrante">
+      <!-- Acá se imprimen los resultados -->
+    </div>
+    <div class="resultado" id="balance">
+      <!-- Acá se imprimen los resultados -->
+    </div>
+  </section>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
